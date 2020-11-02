@@ -1,0 +1,44 @@
+object Form1: TForm1
+  Left = 1965
+  Height = 60
+  Top = -53
+  Width = 357
+  Caption = 'Temperature Converter'
+  ClientHeight = 60
+  ClientWidth = 357
+  LCLVersion = '2.0.10.0'
+  object EditC: TEdit
+    Left = 16
+    Height = 23
+    Top = 16
+    Width = 80
+    OnChange = EditCChange
+    TabOrder = 0
+    Text = '68'
+  end
+  object EditF: TEdit
+    Left = 192
+    Height = 23
+    Top = 16
+    Width = 80
+    OnChange = EditFChange
+    TabOrder = 1
+    Text = '72.00'
+  end
+  object Label1: TLabel
+    Left = 104
+    Height = 15
+    Top = 20
+    Width = 77
+    Caption = '°Centigrade  ='
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 280
+    Height = 15
+    Top = 20
+    Width = 54
+    Caption = '°Farenheit'
+    ParentColor = False
+  end
+end
